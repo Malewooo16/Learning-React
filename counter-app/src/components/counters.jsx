@@ -14,8 +14,9 @@ class Counters extends Component {
   handleIncrement=counter=>{
     const counters=[...this.state.counters]; 
     const  index = counters.indexOf(counter)
-    counters[0]={...counter};
-    counters[]
+    counters[index]={...counter};
+    counters[index].value++;
+    this.setState({counters})
   }
 
   handleReset = () => {
