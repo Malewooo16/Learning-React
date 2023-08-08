@@ -1,0 +1,94 @@
+body{
+    margin: 10px 20px !important;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 420px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo img{
+    margin: 122px 0 7px 0;
+}
+.signup-input.form-control{
+    width: 380px;
+}
+.signup-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h2{
+    font-weight: 700;
+    font-size: 32px;
+
+}
+.form-group p{
+    text-align: right;
+    color:#0CA8F2;
+}
+
+.input-styles.form-control{
+    width: 380px;
+}
+
+
+.login-btn{
+    color: #ffff !important;
+    background-color: #000 !important;
+    width: 380px;
+    margin: 52px 0 100px 0 ;
+}
+
+.guest{
+    width: 380px;
+    border: solid 1px #000 !important;
+    margin-bottom: 172px;
+}
+
+.auth-msg {
+    margin: auto;
+    text-align: center;
+    width: 276px;
+    font-size: 16px;
+
+}
+
+.phone-confirm-btn{
+    color: #ffff !important;
+    background-color: #000 !important;
+    width: 380px;
+    margin: 52px 0 100px 0 ;
+}
+
+.otp{
+    position: relative;
+    left: -15px;
+    
+}
+
+.otp-actions{
+    color: #0CA8F2;
+    position: relative;
+    left: 31px;
+    width: 400px;
+}
+
+
+.otp-styles{
+    margin: auto;
+    margin-left: 30px;
+    width: 50px !important;
+    height: 50px !important;
+}
