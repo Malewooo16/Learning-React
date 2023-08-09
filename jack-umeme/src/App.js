@@ -1,11 +1,10 @@
 import './App.css';
-import SignIn from './components/SignIn';
-import SignUp from './components/SignUp';
-import OtpValidate from './components/OtpValidate';
+import AuthContainer from './components/AuthContainer';
+import ProfileDetails from './components/ProfileDetails';
 function App() {
   return (
     <div>
-        <OtpValidate />
+        <ProfileDetails />
     </div>
   );
 }
