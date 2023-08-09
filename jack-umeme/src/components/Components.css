@@ -87,6 +87,7 @@ body{
 
 
 .otp-styles{
+    text-align: center;
     margin: auto;
     margin-left: 30px;
     width: 50px !important;
