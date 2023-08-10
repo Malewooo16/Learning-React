@@ -11,18 +11,20 @@ function ProfileDetails (){
 
     return(
         <div className="contain">
-            <p>Profile Details</p>
+            <p className="prof-detail">Profile Details</p>
 
-            <div>
-            <form>
+            <div className="reg-box">
+            <form className="reg-form">
                 <label>First Name</label>
-                <input className='form-control name' type="text" />
+                <input className='name' type="text" />
 
                 <label>Last Name</label>
-                <input className='form-control name' type="text" />
+                <input className='name' type="text" />
 
                 
-                <input
+          <div className="radio">
+            <label style={{marginBottom:'2px'}} className="d-block">Gender</label>
+          <input
             type="radio"
             id="male"
             name="gender"
@@ -34,15 +36,21 @@ function ProfileDetails (){
 
           <input
             type="radio"
-            id="female"
+            id="female" 
             name="gender"
             value="female"
             onChange={handleGenderChange}
             checked={selectedGender === "female"}
           />
-          <label htmlFor="female"> Female</label>
+          <label style={{marginLeft:'40px'}} htmlFor="female"> Female</label>
+          </div>
 
+          <label className="d-block">Password </label>
+          <input  type="password" name="pass" id="pass" />
 
+          <label> Confirm Password </label>
+          <input  type="password" name="pass" id="pass" />
+          <button className="btn d-block mx-auto  login-btn  " type="submit"> Complete </button>
             </form>
             </div>
         </div>

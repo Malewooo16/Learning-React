@@ -1,0 +1,57 @@
+.desktop1{
+    margin-right:10% ;
+    padding-top: 10%;
+    width: 33%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-desktop input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+.login-desktop p{
+    text-align: center;
+    margin: auto;
+}
+.desktop2{
+    width: 820px;
+    height: 1075;
+    background: url('./desktop-bg.png') no-repeat;
+    background-size: contain;
+}
+.desktop-logo{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 10px 0 ;
+}
+
+.desktop-logo p{
+    display: inline-flex;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.desktop-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.login-btn{
+    color: #ffff !important;
+    background-color: #000 !important;
+    margin: 52px 0 100px 0 ;
+}
+
+input:focus {
+    outline: none; /* Remove default outline */
+    border: 0.5px solid #242525; /* Add your desired border */
+    box-shadow: 0 0 5px #bdb9b9; /* Add a shadow effect if desired */
+  }

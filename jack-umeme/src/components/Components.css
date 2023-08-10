@@ -113,17 +113,64 @@ input[type="radio"] {
   }
   
   input[type="radio"] + label {
+    text-align: center;
+    width: 170px;
+    height: 50px;
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     border: 1px solid #ccc;
     cursor: pointer;
     transition: background-color 0.3s;
   }
+
+  .radio label{
+    padding-top: 11px;
+    margin-bottom: 17px;
+  }
   
   input[type="radio"]:checked + label {
-    background-color: #007bff;
+    background-color: #000000;
     color: white;
-    border-color: #007bff;
+    border-color: #000000;
+  }
+  
+  .reg-box .name{
+    width: 380px;
+    height: 50px;
+  }
+
+   #pass{
+    width: 380px;
+    height: 50px;
+  }
+   .reg-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 416px;
+    padding: 10px;
+    background: #F5F5F5;
+   }
+
+   .reg-form{
+     display: flex;
+     flex-direction: column;
+   }
+
+.prof-detail{
+    font-weight:500;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.reg-box input{
+    border:  0.5px solid #CECECE;
+}
+
+input:focus {
+    outline: none; /* Remove default outline */
+    border: 2px solid #3498db; /* Add your desired border */
+    box-shadow: 0 0 5px #3498db; /* Add a shadow effect if desired */
   }
   
