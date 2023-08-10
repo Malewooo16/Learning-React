@@ -4,8 +4,10 @@ import DesktopLogin from './desktopUI/DesktopLogin';
 
 function App() {
   return (
+    
     <div>
-        <DesktopLogin />
+      <AuthContainer />
+      <DesktopLogin />
     </div>
   );
 }

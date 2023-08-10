@@ -5,6 +5,7 @@ import SignIn from "./SignIn";
 import ProfileDetails from "./ProfileDetails"
 import './Components.css'
 
+
 function AuthContainer(){
     const [activeComponent, setActiveComponent] = useState(0);
 
@@ -23,6 +24,10 @@ function AuthContainer(){
             {activeComponent===3 && <ProfileDetails/>}
             <button onClick={goToPrevious} className="btn prev-btn"> <i className="fa-solid fa-arrow-left" style={{color: '#000000'}}></i> Previous</button>
             <button onClick={goToNext} className="btn next-btn">Next <i className="fa-solid fa-arrow-right" style={{color:'#ffffff'}}></i></button>
+
+            {/* <Link to='/Desktop'>
+              <button className="btn route-btn">To desktop</button>
+            </Link> */}
             
         </div>
     )
