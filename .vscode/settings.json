@@ -1,3 +1,4 @@
 {
-    "extensions.closeExtensionDetailsOnViewChange": true
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "git.ignoreLimitWarning": true
 }
