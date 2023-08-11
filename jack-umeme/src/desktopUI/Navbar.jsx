@@ -34,11 +34,16 @@ function Navbar (){
 
             <div className='features'>
                 <div className='features-1'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo hic rem dolores. Doloremque incidunt, nobis repudiandae ullam ut esse, nisi id voluptate ducimus, ratione tempore maiores alias labore fuga?</div>
-                <div className='features-1'>
+                <div className='features-2'>
                     <div className='content'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur asperiores sequi, itaque quaerat ducimus illo deserunt. Officiis et necessitatibus reiciendis laudantium sed doloribus, mollitia tenetur ullam sapiente deserunt dolor voluptatum?</div>
-                    <div className='content'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores magni consequatur sapiente alias quis architecto ipsum non at! Reiciendis repellat qui suscipit quam rerum placeat cupiditate accusamus maiores tenetur.</div>
-                    
+                    <div className='content'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores magni consequatur sapiente alias quis architecto ipsum non at! Reiciendis repellat qui suscipit quam rerum placeat cupiditate accusamus maiores tenetur.</div>  
                 </div>
+            </div>
+
+            <div className='circles'>
+                <div className='circle-1'></div>
+                <div className='circle-2'></div>
+                <div className='circle-3'></div>
             </div>
         </div>
     )
