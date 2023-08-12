@@ -50,18 +50,41 @@ function Navbar() {
 
       <div className="features">
         <div className="features-1">
-          {" "}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo
-          hic rem dolores. Doloremque incidunt, nobis repudiandae ullam ut esse,
-          nisi id voluptate ducimus, ratione tempore maiores alias labore fuga?
+          <div>
+            <h1>2 apps for the price of 1</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+            >
+              <path
+                d="M17.5 5.86914C16.1739 5.86914 14.9021 6.39592 13.9645 7.33361C13.0268 8.27129 12.5 9.54306 12.5 10.8691V40.8691C12.5 42.1952 13.0268 43.467 13.9645 44.4047C14.9021 45.3424 16.1739 45.8691 17.5 45.8691H32.5C33.8261 45.8691 35.0979 45.3424 36.0355 44.4047C36.9732 43.467 37.5 42.1952 37.5 40.8691V10.8691C37.5 9.54306 36.9732 8.27129 36.0355 7.33361C35.0979 6.39592 33.8261 5.86914 32.5 5.86914H17.5ZM5 15.8691C5 14.5431 5.52678 13.2713 6.46447 12.3336C7.40215 11.3959 8.67392 10.8691 10 10.8691V40.8691C8.67392 40.8691 7.40215 40.3424 6.46447 39.4047C5.52678 38.467 5 37.1952 5 35.8691V15.8691ZM40 40.8691V10.8691C41.3261 10.8691 42.5979 11.3959 43.5355 12.3336C44.4732 13.2713 45 14.5431 45 15.8691V35.8691C45 37.1952 44.4732 38.467 43.5355 39.4047C42.5979 40.3424 41.3261 40.8691 40 40.8691Z"
+                fill="#212121"
+              />
+            </svg>
+          </div>
+          <p>A User app for customers and a Store app for shops</p>
+          <img
+            className="phone-1"
+            src="./img/iPhone 13 Pro (2).png"
+            alt="features"
+          />
+          <img
+            className="phone-2"
+            src="./img/iPhone 13 Pro (3).png"
+            alt="features"
+          />
         </div>
         <div className="features-2">
           <div className="content">
-            {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            asperiores sequi, itaque quaerat ducimus illo deserunt. Officiis et
-            necessitatibus reiciendis laudantium sed doloribus, mollitia tenetur
-            ullam sapiente deserunt dolor voluptatum?
+            
+            <h1> Top Notch Security <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51" fill="none">
+  <path d="M25 2.95215L6.25 11.2855V23.7855C6.25 35.348 14.25 46.1605 25 48.7855C35.75 46.1605 43.75 35.348 43.75 23.7855V11.2855L25 2.95215ZM25 15.4521C27.9167 15.4521 30.8333 17.7438 30.8333 20.6605V23.7855C32.0833 23.7855 33.3333 25.0355 33.3333 26.4938V33.7855C33.3333 35.0355 32.0833 36.2855 30.625 36.2855H19.1667C17.9167 36.2855 16.6667 35.0355 16.6667 33.5771V26.2855C16.6667 25.0355 17.9167 23.7855 19.1667 23.7855V20.6605C19.1667 17.7438 22.0833 15.4521 25 15.4521ZM25 17.9521C23.3333 17.9521 21.875 18.9938 21.875 20.6605V23.7855H28.125V20.6605C28.125 18.9938 26.6667 17.9521 25 17.9521Z" fill="#212121"/>
+</svg> & Mobile payments  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+  <path d="M11.1 9C10.7 8.9 10.3 8.7 10 8.4C9.7 8.3 9.6 8 9.6 7.8C9.6 7.6 9.7 7.3 9.9 7.2C10.2 7 10.5 6.8 10.8 6.9C11.4 6.9 11.9 7.2 12.2 7.6L13.1 6.4C12.8 6.1 12.5 5.9 12.2 5.7C11.9 5.5 11.5 5.4 11.1 5.4V4H9.9V5.4C9.4 5.5 8.9 5.8 8.5 6.2C8.1 6.7 7.8 7.3 7.9 7.9C7.9 8.5 8.1 9.1 8.5 9.5C9 10 9.7 10.3 10.3 10.6C10.6 10.7 11 10.9 11.3 11.1C11.5 11.3 11.6 11.6 11.6 11.9C11.6 12.2 11.5 12.5 11.3 12.8C11 13.1 10.6 13.2 10.3 13.2C9.9 13.2 9.4 13.1 9.1 12.8C8.8 12.6 8.5 12.3 8.3 12L7.3 13.1C7.6 13.5 7.9 13.8 8.3 14.1C8.8 14.4 9.4 14.7 10 14.7V16H11.1V14.5C11.7 14.4 12.2 14.1 12.6 13.7C13.1 13.2 13.4 12.4 13.4 11.7C13.4 11.1 13.2 10.4 12.7 10C12.2 9.5 11.7 9.2 11.1 9ZM10.5 2C6.1 2 2.5 5.6 2.5 10C2.5 14.4 6.1 18 10.5 18C14.9 18 18.5 14.4 18.5 10C18.5 5.6 14.9 2 10.5 2ZM10.5 16.9C6.7 16.9 3.6 13.8 3.6 10C3.6 6.2 6.7 3.1 10.5 3.1C14.3 3.1 17.4 6.2 17.4 10C17.4 13.8 14.3 16.9 10.5 16.9Z" fill="#212121"/>
+</svg></h1>
           </div>
           <div className="content">
             {" "}
@@ -165,7 +188,7 @@ function Navbar() {
             </p>
           </div>
           <div>
-          <svg
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               width="61"
               height="61"
