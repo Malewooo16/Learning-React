@@ -138,7 +138,7 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
-    height: 550px;
+    height: 728px;
     border-radius: 40px; 
 }
 
@@ -160,9 +160,10 @@ input:focus {
 
 .features-1 .phone-1{
     position: relative;
-    top:-25%;
-    left: 30%;
-    width: 357px;
+    top:-35%;
+    left: 28%;
+    width: 406px;
+    height: 600px;
 }
 
 .features-1 p{
@@ -171,28 +172,50 @@ input:focus {
     width: 300px;
 }
 
+.features-1 .phones{
+    position: relative;
+    top: 40%;
+}
 .features-1 .phone-2{
     position: relative;
-    top: -100%;
-    left: 19%;
-    width: 250px;
+    top: -75%;
+    left: 16%;
+    width: 299px;
+    height: 600px;
 }
 
 
 .features-2{
     display: flex;
     flex-direction: column;
-    margin: 1% 5%;
-    border: solid 2px black;
+    margin: 0.5% 4%;
     border-radius: 30px;
 }
 
 .features-2 .content{
-    padding: 5%;
+    display: flex;
+    height: 85%;
+    padding: 3%;
     border-radius: 20px;
     background: lightgray;
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%;   
+}
+
+.content h1{
+    font-size: 32px;
+}
+
+.content p{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.content .phone3{
+    width: 30%;
+}
+
+.content .phone4{
+    width: 0px;
 }
 
 .circle-1{
