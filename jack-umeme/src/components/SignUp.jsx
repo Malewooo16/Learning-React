@@ -10,7 +10,7 @@ function SignUp() {
         <img src="./com.jackumeme1.png" alt="logo" />
         <h2 className="logo-text ">Jack Umeme</h2>
       </div>
-
+        {/* cshine.bs@gmail.com */}
       <div>
         <form className="signup-group">
           <label>Phone Number</label>

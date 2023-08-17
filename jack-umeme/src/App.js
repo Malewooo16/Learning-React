@@ -1,13 +1,13 @@
 import './App.css';
 import AuthContainer from './components/AuthContainer';
 import DesktopLogin from './desktopUI/DesktopLogin';
-import Navbar from './desktopUI/Navbar';
+import LandingPage from './desktopUI/Navbar';
 
 function App() {
   return (
     
     <div>
-      <Navbar />
+      <LandingPage />
     </div>
   );
 }

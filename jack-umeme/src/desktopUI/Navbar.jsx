@@ -1,22 +1,27 @@
 import React, { useState } from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../graphics.svg' ;
 
-function Navbar() {
+function LandingPage() {
   return (
     <div className="landing-wrapper">
-      <div className="full-nav">
-        <header>
-          <img src="./com.jackumeme1.png" alt="logo" />
-        </header>
-
-        <nav>
-          <ul>
-            <li>User App</li>
-            <li> Store App </li>
-            <li> Terms & Conditions</li>
-            <li> Privacy Policy</li>
-          </ul>
-        </nav>
-      </div>
+      <Navbar expand="lg" className="bg-body-primary" bg="dark" data-bs-theme="dark"style={{width:'90vw', margin:'50px 0'}}>
+      <Container>
+        <Navbar.Brand href="#home"> <img src="./com.jackumeme1.png" alt='logo'/> </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">User App</Nav.Link>
+            <Nav.Link href="#link">Store App</Nav.Link>
+            <Nav.Link href="#home">Terms & Condition</Nav.Link>
+            <Nav.Link href="#link">Privacy Policy</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
       <div className="intro">
         <p className="intro-1">
@@ -25,7 +30,7 @@ function Navbar() {
         </p>
 
         <p className="intro-2">
-          Welcome to Jack Umeme, Where Shopping Meets Convenience: <br />{" "}
+          Welcome to <strong>Jack Umeme</strong>, Where Shopping Meets Convenience: <br />{" "}
           Browse, Discover, and Embrace a World of Endless Possibilities! <br />{" "}
           Experience Seamless Ecommerce Delight with Exclusive Deals, <br />{" "}
           Effortless Navigation, and Personalized Recommendations Tailored Just
@@ -37,7 +42,7 @@ function Navbar() {
       <div className="app-stores">
         <div className="iphone">
           <img className="link2" src="./img/AppStore.png" alt="appstore" />
-          <img src="./img/iPhone 13 Pro (1).png" alt="app store" />
+          <img  src="./img/iPhone 13 Pro (1).png" alt="app store" />
         </div>
 
         <div className="android">
@@ -46,24 +51,27 @@ function Navbar() {
         </div>
       </div>
 
-      <h1>Our Features</h1>
+      <h1 className="feat">Our Features</h1>
 
       <div className="features">
         <div className="features-1">
           <div>
-            <h1>2 apps for the price of 1</h1>
-            <svg
+            <h1>2 apps for the price of 1  
+              <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
               height="51"
               viewBox="0 0 50 51"
               fill="none"
+              id="phone"
             >
               <path
                 d="M17.5 5.86914C16.1739 5.86914 14.9021 6.39592 13.9645 7.33361C13.0268 8.27129 12.5 9.54306 12.5 10.8691V40.8691C12.5 42.1952 13.0268 43.467 13.9645 44.4047C14.9021 45.3424 16.1739 45.8691 17.5 45.8691H32.5C33.8261 45.8691 35.0979 45.3424 36.0355 44.4047C36.9732 43.467 37.5 42.1952 37.5 40.8691V10.8691C37.5 9.54306 36.9732 8.27129 36.0355 7.33361C35.0979 6.39592 33.8261 5.86914 32.5 5.86914H17.5ZM5 15.8691C5 14.5431 5.52678 13.2713 6.46447 12.3336C7.40215 11.3959 8.67392 10.8691 10 10.8691V40.8691C8.67392 40.8691 7.40215 40.3424 6.46447 39.4047C5.52678 38.467 5 37.1952 5 35.8691V15.8691ZM40 40.8691V10.8691C41.3261 10.8691 42.5979 11.3959 43.5355 12.3336C44.4732 13.2713 45 14.5431 45 15.8691V35.8691C45 37.1952 44.4732 38.467 43.5355 39.4047C42.5979 40.3424 41.3261 40.8691 40 40.8691Z"
                 fill="#212121"
               />
             </svg>
+              </h1>
+            
           </div>
           <p>A User app for customers and a Store app for shops</p>
           <div className="phones">
@@ -99,7 +107,7 @@ function Navbar() {
           </div>
 
 
-          <div className="content">
+          <div className="content" style={{height:'340px'}}>
           <div className="content">
             
             <div>
@@ -118,7 +126,7 @@ function Navbar() {
   </h1>
   <p>A simplified checkout process for a smoother all round experience. In just a few clicks a customer can cart or buy their chosen product.</p>
             </div>
-  <img className='phone3' src="./img/iPhone 13 Pro (5).png" alt="phone3"/>
+  <img className='phone4' src="./img/iPhone 13 Pro (5).png" alt="phone3"/>
           </div>
           </div>
         </div>
@@ -242,4 +250,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default LandingPage;

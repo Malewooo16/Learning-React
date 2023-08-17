@@ -1,315 +1,381 @@
-.body{
-    font-family: Nunito Sans
+.body {
+  font-family: Nunito Sans;
 }
 
-.desktop1{
-    margin-right:10% ;
-    padding-top: 10%;
-    width: 33%;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.desktop-logo {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding: 10px 0;
 }
 
-.login-desktop input{
-    height: 40px;
-    width: 100%;
-    outline: none;
-    border-radius: 10px;
-    border: 0.5px solid black;
+.desktop-logo p {
+  display: inline-flex;
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
-.login-desktop p{
-    text-align: center;
-    margin: auto;
-}
-.desktop2{
-    width: 100%;
-    height: 1075;
-    background: url('./desktop-bg.png') no-repeat;
-    background-size: contain;
-    
+.desktop-logo img {
+  width: 50px;
+  height: 50px;
 }
 
-.desktop2 img{
-        margin: 40% 0 0 27%;
-        width: 150px;
-        border-radius: 50%;
-        opacity: 0.6;
-
-}
-
-
-.full-nav{
-   display: flex;
-}
-
-.full-nav header{
-    margin-right: 200px ;
-}
-.full-nav nav{
-    display: flex;
-    align-items: center;
-}
-.full-nav nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-}
-
-.full-nav nav ul li{
-    display: inline-block;
-    width: 200px;
-    text-align: center;   
-}
-
-.desktop-logo{
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    padding: 10px 0 ;
-}
-
-.desktop-logo p{
-    display: inline-flex;
-    width: 200px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.desktop-logo img{
-    width: 50px;
-    height: 50px;
-}
-
-.login-btn{
-    color: #ffff !important;
-    background-color: #000 !important;
-    margin: 52px 0 100px 0 ;
+.login-btn {
+  color: #ffff !important;
+  background-color: #000 !important;
+  margin: 52px 0 100px 0;
 }
 
 input:focus {
-    outline: none; /* Remove default outline */
-    border: 0.5px solid #242525; /* Add your desired border */
-    box-shadow: 0 0 5px #bdb9b9; /* Add a shadow effect if desired */
+  outline: none; /* Remove default outline */
+  border: 0.5px solid #242525; /* Add your desired border */
+  box-shadow: 0 0 5px #bdb9b9; /* Add a shadow effect if desired */
 }
 
-.intro{
+.desktop1 {
+  margin-right: 10%;
+  padding-top: 10%;
+  width: 33%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-desktop input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  border: 0.5px solid black;
+}
+.login-desktop p {
+  text-align: center;
+  margin: auto;
+}
+.desktop2 {
+  width: 100%;
+  height: 1075;
+  background: url("./desktop-bg.png") no-repeat;
+  background-size: contain;
+}
+
+.desktop2 img {
+  margin: 40% 0 0 27%;
+  width: 150px;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.full-nav {
+  display: flex;
+}
+
+.full-nav header {
+  margin-left: -100px;
+  margin-right: 200px;
+}
+.full-nav nav {
+  display: flex;
+  align-items: center;
+}
+.full-nav nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.full-nav nav ul li {
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro-1 {
+  font-size: 40px;
+  font-weight: 800;
+  width: 44%;
+}
+
+.intro-1 span {
+  color: #159bd8;
+}
+
+.intro-2 {
+  font-size: 25px;
+  font-weight: 400;
+  width: 66%;
+}
+
+.app-stores {
+  width: 83%;
+  height: 547px;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.3) inset;
+}
+
+.landing-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  height: 728px;
+  border-radius: 40px;
+}
+
+.feat {
+  margin-bottom: 5%;
+  font-size: 64px;
+}
+
+.features-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0;
+  background: #f0f0f0;
+  border-radius: 30px;
+}
+
+.features-1 h1 {
+  display: inline;
+  margin: 0 3%;
+  vertical-align: middle;
+  font-size: 32px;
+}
+
+.features-1 p {
+  font-size: 20px;
+  padding: 3%;
+  width: 300px;
+}
+
+.features-1 .phones {
+  position: relative;
+  top: 40%;
+}
+.features-1 .phone-1 {
+  position: relative;
+  top: -35%;
+  left: 28%;
+  width: 406px;
+  height: 600px;
+}
+
+.features-1 .phone-2 {
+  position: relative;
+  top: -75%;
+  left: 16%;
+  width: 299px;
+  height: 600px;
+}
+
+.features-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5% 4%;
+  border-radius: 30px;
+}
+
+.features-2 .content {
+  display: flex;
+  height: 85%;
+  padding: 3%;
+  border-radius: 20px;
+  background: #f0f0f0;
+  margin-bottom: 5%;
+}
+
+.content h1 {
+  font-size: 32px;
+}
+
+.content p {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.content .phone3 {
+  width: 30%;
+}
+
+.content .phone4 {
+  position: relative;
+  top: -14%;
+  width: 213px;
+  height: 320px;
+}
+
+.circle-1 {
+  position: relative;
+  top: 12%;
+  left: -40%;
+  background: #ffe975;
+  opacity: 0.7;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+}
+.circle-2 {
+  position: relative;
+  left: -10%;
+  top: -10%;
+  background: #ff7575;
+  opacity: 0.7;
+  width: 55%;
+  height: 55%;
+  border-radius: 50%;
+}
+.circle-3 {
+  position: relative;
+  top: -70%;
+  left: 38%;
+  background: #82ff82;
+  opacity: 0.7;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.circles {
+  position: relative;
+  top: -50px;
+  width: 500px;
+  height: 500px;
+}
+
+.app-stores {
+  margin-bottom: 5%;
+  display: flex;
+  padding: 0 10%;
+}
+
+.app-stores .link {
+  padding: 0 10%;
+}
+
+.app-stores .link2 {
+  padding: 0 15%;
+  position: relative;
+  top: -2%;
+}
+
+.app-stores .iphone {
+  padding: 4.6% 0;
+}
+
+.app-stores .iphone img {
+  display: block;
+}
+
+.app-stores .android img {
+  display: block;
+}
+
+.qualities {
+  display: flex;
+  margin-left: 7%;
+}
+.qualities div {
+  width: 400px;
+  margin-right: 8%;
+}
+
+.qualities-2 {
+  display: flex;
+  margin: 5% 0 0 15%;
+}
+
+.qualities-3 {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  padding-left: 10%;
+}
+
+.qualities-3 div {
+  margin-bottom: 20%;
+}
+.qualities-3 h2 {
+  display: inline-block;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 400px) {
+  .app-stores {
+    width: 95%;
+    height: 300px;
+    border-radius: 10px;
+    background:none;
+    box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.3) inset;
+    padding:0;
+  }
+
+  .app-stores img{
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
+  .features {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
-}
-
-.intro-1{
-    font-size: 40px;
-    font-weight: 800;
-    width: 44%;
-}
-
-.intro-1 span{
-    color: #159bd8;
-}
-
-.intro-2{
-    font-size: 25px;
-    font-weight: 400;
-    width: 66%;
-}
-
-.app-stores{
-    width: 83%;
-    height: 547px;
+    margin-bottom: 2%;
+    height: auto;
     border-radius: 40px;
-    background: grey;
-}
+  }
 
-.landing-wrapper{
+  /* More styles */
+
+  .qualities {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.features{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 5%;
-    height: 728px;
-    border-radius: 40px; 
-}
-
-.features-1{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1% 0;
-    background: lightgray;
-    border-radius: 30px;
-}
-
-.features-1 h1{
-    display: inline;
-    margin:0 3%;
-    vertical-align: middle;
-    font-size: 32px;
-}
-
-.features-1 .phone-1{
+    margin-left: 7%;
+  }
+  .features-1 .phones {
+    margin-top: -70px;
     position: relative;
-    top:-35%;
-    left: 28%;
-    width: 406px;
-    height: 600px;
-}
-
-.features-1 p{
-    font-size: 20px;
-    padding: 3%;
-    width: 300px;
-}
-
-.features-1 .phones{
-    position: relative;
-    top: 40%;
-}
-.features-1 .phone-2{
-    position: relative;
-    top: -75%;
-    left: 16%;
-    width: 299px;
-    height: 600px;
-}
-
-
-.features-2{
-    display: flex;
-    flex-direction: column;
-    margin: 0.5% 4%;
-    border-radius: 30px;
-}
-
-.features-2 .content{
-    display: flex;
-    height: 85%;
-    padding: 3%;
-    border-radius: 20px;
-    background: lightgray;
-    margin-bottom: 5%;   
-}
-
-.content h1{
-    font-size: 32px;
-}
-
-.content p{
-    width: 50%;
-    margin-top: 5%;
-}
-
-.content .phone3{
-    width: 30%;
-}
-
-.content .phone4{
-    width: 0px;
-}
-
-.circle-1{
-    position: relative;
-    top: 12%;
-    left: -40%;
-    background: #ffe975;
-    opacity: 0.7;
-    width: 45%;
-    height: 45%;
-    border-radius: 50%;
-}
-.circle-2{
-    position: relative;
-    left: -10%;
-    top: -10%;
-    background: #ff7575;
-    opacity: 0.7;
-    width: 55%;
-    height: 55%;
-    border-radius: 50%;
-}
-.circle-3{
+    top: 0%;
+  }
+  .features-1 .phone-1 {
     position: relative;
     top: -70%;
-    left: 38%;
-    background: #82ff82;
-    opacity: 0.7;
-    width: 40%;
-    height: 40%;
-    border-radius: 50%;
-}
+    left: 5%;
+    width: 350px;
+    height: 400px;
+  }
 
-.circles{
+  .features-1 .phone-2 {
+    margin-top: -240px;
+    margin-left: -50px;
+    width: 250px;
+    height: 400px;
+  }
+
+  .circles {
+    display: none;
     position: relative;
     top: -50px;
     width: 500px;
     height: 500px;
-}
-
-.app-stores{
-    margin-bottom: 5%;
-    display: flex;
-    padding: 0 10%;
-}
-
-.app-stores .link{
-    padding: 0 10%;
-}
-
-.app-stores .link2{
-    padding: 0 15%;
-    position: relative;
-    top: -2%;
-}
-
-.app-stores .iphone{
-    padding: 4.6% 0;
-}
-
-.app-stores .iphone img{
-    display: block;
-}
-
-.app-stores .android img{
-    display: block;
-}
-
-.qualities{
-    display: flex;
-    margin-left: 7%;
-}
-.qualities div{
-    width: 400px;
-    margin-right: 8%;
-}
-
-.qualities-2{
-    display: flex;
-    margin: 5% 0 0 15%;
-
-}
-
-.qualities-3{
-    display: flex;
-    flex-direction: column;
-    width: 390px;
-    padding-left: 10%;
-}
-
-.qualities-3 div{
-    margin-bottom: 20%;
-}
-.qualities-3 h2{
-    display: inline-block;  
-    margin-bottom: 10%;   
+  }
 }
