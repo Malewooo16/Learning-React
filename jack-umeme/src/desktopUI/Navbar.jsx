@@ -8,15 +8,15 @@ import '../graphics.svg' ;
 function LandingPage() {
   return (
     <div className="landing-wrapper">
-      <Navbar expand="lg" className="bg-body-primary" bg="dark" data-bs-theme="dark"style={{width:'90vw', margin:'50px 0'}}>
+      <Navbar expand="lg" className="bg-body-primary full-nav">
       <Container>
-        <Navbar.Brand href="#home"> <img src="./com.jackumeme1.png" alt='logo'/> </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <img className="img-fluid" src="./com.jackumeme1.png" alt='logo'/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">User App</Nav.Link>
-            <Nav.Link href="#link">Store App</Nav.Link>
-            <Nav.Link href="#home">Terms & Condition</Nav.Link>
+            <Nav.Link href="#home" >User App &nbsp; &nbsp;</Nav.Link> <br/>
+            <Nav.Link href="#link">Store App &nbsp; &nbsp;</Nav.Link>
+            <Nav.Link href="#home">Terms & Conditions &nbsp; &nbsp;</Nav.Link>
             <Nav.Link href="#link">Privacy Policy</Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -39,7 +39,7 @@ function LandingPage() {
         </p>
       </div>
 
-      <div className="app-stores">
+      <div className="container-fluid app-stores">
         <div className="iphone">
           <img className="link2" src="./img/AppStore.png" alt="appstore" />
           <img  src="./img/iPhone 13 Pro (1).png" alt="app store" />
@@ -53,10 +53,10 @@ function LandingPage() {
 
       <h1 className="feat">Our Features</h1>
 
-      <div className="features">
-        <div className="features-1">
+      <div className=" features">
+        <div className="container-fluid features-1">
           <div>
-            <h1>2 apps for the price of 1  
+            <h1>2 apps for the price of 1 
               <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
@@ -113,9 +113,9 @@ function LandingPage() {
             <div>
             <h1> Easy Checkout <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
   <g clip-path="url(#clip0_1235_58)">
-    <path d="M48.2147 1.78613H39.2861L36.1789 32.679C36.0498 33.5306 35.6172 34.3069 34.9609 34.8647C34.3046 35.4226 33.4688 35.7244 32.6075 35.7147H10.1075C9.3287 35.7554 8.558 35.54 7.9131 35.1014C7.26821 34.6629 6.78458 34.0254 6.53608 33.2861L1.78608 19.0004C1.60898 18.4633 1.56196 17.8919 1.64889 17.333C1.73581 16.7742 1.9542 16.244 2.28608 15.7861C2.63183 15.2993 3.09413 14.9069 3.6307 14.6448C4.16726 14.3828 4.76097 14.2595 5.35751 14.2861H38.0361" stroke="#212121" stroke-width="3.57143" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M10.7144 48.215C11.7006 48.215 12.5001 47.4155 12.5001 46.4293C12.5001 45.443 11.7006 44.6436 10.7144 44.6436C9.7282 44.6436 8.92871 45.443 8.92871 46.4293C8.92871 47.4155 9.7282 48.215 10.7144 48.215Z" stroke="#212121" stroke-width="3.57143" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M33.9293 48.215C34.9155 48.215 35.715 47.4155 35.715 46.4293C35.715 45.443 34.9155 44.6436 33.9293 44.6436C32.943 44.6436 32.1436 45.443 32.1436 46.4293C32.1436 47.4155 32.943 48.215 33.9293 48.215Z" stroke="#212121" stroke-width="3.57143" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M48.2147 1.78613H39.2861L36.1789 32.679C36.0498 33.5306 35.6172 34.3069 34.9609 34.8647C34.3046 35.4226 33.4688 35.7244 32.6075 35.7147H10.1075C9.3287 35.7554 8.558 35.54 7.9131 35.1014C7.26821 34.6629 6.78458 34.0254 6.53608 33.2861L1.78608 19.0004C1.60898 18.4633 1.56196 17.8919 1.64889 17.333C1.73581 16.7742 1.9542 16.244 2.28608 15.7861C2.63183 15.2993 3.09413 14.9069 3.6307 14.6448C4.16726 14.3828 4.76097 14.2595 5.35751 14.2861H38.0361" stroke="#212121" strokeWidth="3.57143" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M10.7144 48.215C11.7006 48.215 12.5001 47.4155 12.5001 46.4293C12.5001 45.443 11.7006 44.6436 10.7144 44.6436C9.7282 44.6436 8.92871 45.443 8.92871 46.4293C8.92871 47.4155 9.7282 48.215 10.7144 48.215Z" stroke="#212121" strokeWidth="3.57143" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M33.9293 48.215C34.9155 48.215 35.715 47.4155 35.715 46.4293C35.715 45.443 34.9155 44.6436 33.9293 44.6436C32.943 44.6436 32.1436 45.443 32.1436 46.4293C32.1436 47.4155 32.943 48.215 33.9293 48.215Z" stroke="#212121" strokeWidth="3.57143" strokeLinecap="round" strokeLinejoin="round"/>
   </g>
   <defs>
     <clipPath id="clip0_1235_58">
@@ -124,15 +124,15 @@ function LandingPage() {
   </defs>
 </svg>
   </h1>
-  <p>A simplified checkout process for a smoother all round experience. In just a few clicks a customer can cart or buy their chosen product.</p>
+  <p className="checkout-p">A simplified checkout process for a smoother all round experience. In just a few clicks a customer can cart or buy their chosen product.</p>
             </div>
   <img className='phone4' src="./img/iPhone 13 Pro (5).png" alt="phone3"/>
           </div>
           </div>
         </div>
       </div>
-      <div className="qualities">
-        <div>
+      <div className="container-fluid qualities">
+        <div className="container-fluid">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="60"
@@ -152,7 +152,7 @@ function LandingPage() {
             you need quickly and efficiently.
           </p>
         </div>
-        <div>
+        <div className="container-fluid">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="61"
@@ -173,7 +173,7 @@ function LandingPage() {
             the best deals on your favorite items, every time you shop.
           </p>
         </div>
-        <div>
+        <div className="container-fluid">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="60"
@@ -195,13 +195,13 @@ function LandingPage() {
         </div>
       </div>
       <div className="qualities-2">
-        <div className="circles">
-          <div className="circle-1"></div>
+        <div className=" container-fluid circles">
+          <div className=" circle-1"></div>
           <div className="circle-2"></div>
           <div className="circle-3"></div>
         </div>
 
-        <div className="qualities-3">
+        <div className="container-fluid qualities-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -69,30 +69,32 @@ input:focus {
 }
 
 .full-nav {
-  display: flex;
+  width: 100%;
 }
 
-.full-nav header {
-  margin-left: -100px;
-  margin-right: 200px;
-}
-.full-nav nav {
-  display: flex;
-  align-items: center;
-}
-.full-nav nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  padding: 0 40px;
+.full-nav img{
+  width: 100px;
+  margin-left: -70px;
 }
 
-.full-nav nav ul li {
-  display: inline-block;
-  width: 200px;
+.full-nav .collapse{
+   margin-left: 45%;
+}
+
+.full-nav .container{
+  padding: 0;
+}
+
+.full-nav .collapse a{
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding-right: 10%;
+  padding-left: 20%;
   font-size: 20px;
-  text-align: center;
 }
+
+
 
 .intro {
   display: flex;
@@ -105,7 +107,7 @@ input:focus {
 .intro-1 {
   font-size: 40px;
   font-weight: 800;
-  width: 44%;
+  width: 54%;
 }
 
 .intro-1 span {
@@ -115,7 +117,7 @@ input:focus {
 .intro-2 {
   font-size: 25px;
   font-weight: 400;
-  width: 66%;
+  width: 86%;
 }
 
 .app-stores {
@@ -162,6 +164,10 @@ input:focus {
   margin: 0 3%;
   vertical-align: middle;
   font-size: 32px;
+}
+
+.features-1 svg{
+  margin-left: 15px;
 }
 
 .features-1 p {
@@ -267,6 +273,7 @@ input:focus {
 .app-stores {
   margin-bottom: 5%;
   display: flex;
+  justify-content: center;
   padding: 0 10%;
 }
 
@@ -277,11 +284,12 @@ input:focus {
 .app-stores .link2 {
   padding: 0 15%;
   position: relative;
-  top: -2%;
+  top: -4%;
 }
 
 .app-stores .iphone {
-  padding: 4.6% 0;
+  margin-left: 10px;
+  padding: 3% 0;
 }
 
 .app-stores .iphone img {
@@ -296,10 +304,6 @@ input:focus {
   display: flex;
   margin-left: 7%;
 }
-.qualities div {
-  width: 400px;
-  margin-right: 8%;
-}
 
 .qualities-2 {
   display: flex;
@@ -310,7 +314,8 @@ input:focus {
   display: flex;
   flex-direction: column;
   width: 390px;
-  padding-left: 10%;
+  position: relative;
+  left: 10%;
 }
 
 .qualities-3 div {
@@ -321,10 +326,62 @@ input:focus {
   margin-bottom: 10%;
 }
 
-@media (max-width: 400px) {
-  .app-stores {
+
+@media (max-width:1025px){
+  .full-nav img{
+    width: 100px;
+    margin-left: -10px;
+  }
+  
+  .full-nav .collapse{
+     margin-left: 25%;
+  }
+  
+  br{
+    display: none;
+  }
+}
+@media (max-width: 920px) {
+
+  .full-nav {
+    width: 100%;
+    color: white;
+  }
+
+  .full-nav .toggle{
+    background-color: white;
+    color: white;
+  }
+  .full-nav img{
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  .full-nav .collapse{
+     margin-left: 0%;
+  }
+  
+  .full-nav .collapse a{
+    display: inline-block;
+    color: #000;
+    padding: 5px 0;
+    font-size: 20px;
+  }
+
+  .intro-1 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 94%;
+  }
+  
+  .intro-2 {
+    font-size: 20px;
+    font-weight: 400;
     width: 95%;
-    height: 300px;
+  }
+
+  .app-stores {
+    height: 100%;
     border-radius: 10px;
     background:none;
     box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.3) inset;
@@ -336,46 +393,450 @@ input:focus {
     margin: 0;
     padding: 5px 0;
   }
+
+  .app-stores .link2{
+    top: -1%;
+    margin-bottom: 4%;
+  }
   .features {
-    display: flex;
     flex-direction: column;
     margin-bottom: 2%;
     height: auto;
     border-radius: 40px;
   }
 
+
+  .features-1 h1{
+    font-size: 38px;
+    margin-top: 2px;
+  }
+
   /* More styles */
 
   .qualities {
-    display: flex;
     flex-direction: column;
     margin-left: 7%;
   }
+
+  .features-1 {
+    margin-bottom: 10px;
+  }
+  
+  .features-1 .phone-1 {
+    top: 0%;
+    left: 5%;
+    width: 400px;
+    height: auto;
+  }
+
+  .features-1 .phone-2 {
+    left: -50px;
+    width: 300px;
+    height: auto;
+  }
+
+  .features-2 {
+    margin: 0.5%;
+    border-radius: 30px;
+    width: 99%;
+  }
+  
+  .features-2 .content {
+    padding: 5% 3%;
+    border-radius: 20px;
+    background: #f0f0f0;
+    margin-bottom: 5%;
+  }
+  
+  .content h1 {
+    font-size: 30px;
+  }
+  
+  .content p {
+    width: 90%;
+    margin-top: 10%;
+  }
+
+  .content .phone4 {
+    top: -45%;
+    left: -5%;
+    width: 400px;
+    height: 320px;
+  }
+
+  .content .checkout-p{
+      width: 80%;
+  }
+
+  .qualities-3 {
+    width: 100%;
+    padding: 0;
+    left: -1%;
+  }
+
+  .qualities-3 h2 {
+    margin-bottom: 2%;
+  }
+
+  .qualities-3 div {
+    margin-bottom: 10%;
+  }
+  
+}
+
+@media (max-width: 820px) {
+  .full-nav {
+    width: 100%;
+    color: white;
+  }
+
+
+  .full-nav .toggle{
+    background-color: white;
+    color: white;
+  }
+
+  .full-nav img {
+    margin-left: -25px;
+  }
+
+  .intro-1 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 94%;
+  }
+  
+  .intro-2 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 95%;
+  }
+
+  .app-stores {
+    border-radius: 10px;
+    background:none;
+    box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.3) inset;
+    padding:0;
+  }
+
+  .app-stores img{
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .app-stores .iphone {
+    margin-left: 10px;
+  }
+
+  .app-stores .link2{
+    top: -1%;
+    margin-bottom: 4%;
+  }
+
+  .features {
+    flex-direction: column;
+    margin-bottom: 2%;
+    height: auto;
+    border-radius: 40px;
+  }
+
+
+  .features-1 h1{
+    font-size: 38px;
+    margin-top: 2px;
+  }
+
+  /* More styles */
+
+  .qualities {
+    flex-direction: column;
+    margin-left: 7%;
+  }
+
+  .features-1 {
+    margin-bottom: 10px;
+  }
   .features-1 .phones {
-    margin-top: -70px;
-    position: relative;
+    margin-top: 0px;
     top: 0%;
   }
   .features-1 .phone-1 {
-    position: relative;
-    top: -70%;
+    top: 0%;
     left: 5%;
+    width: 400px;
+    height: auto;
+  }
+
+  .features-1 .phone-2 {
+    margin-top: 0px;
+    left: -50px;
+    width: 300px;
+    height: auto;
+  }
+
+  .features-2 {
+    flex-direction: column;
+    margin: 0.5%;
+    border-radius: 30px;
+    width: 99%;
+  }
+  
+  .features-2 .content {
+    height: 85%;
+    padding: 5% 3%;
+    border-radius: 20px;
+    background: #f0f0f0;
+    margin-bottom: 5%;
+  }
+  
+  .content h1 {
+    font-size: 30px;
+  }
+  
+  .content p {
+    width: 90%;
+    margin-top: 10%;
+  }
+
+  .content .phone4 {
+    top: -45%;
+    left: -5%;
+    width: 400px;
+    height: 320px;
+  }
+
+  .content .checkout-p{
+      width: 80%;
+      padding: 0;
+  }
+
+  .circles {
+    display: none;
+  }
+
+  .qualities-3 {
+    flex-direction: column;
+    width: 100%;
+    left: -16%;
+  }
+
+  .qualities-3 h2 {
+    margin-bottom: 2%;
+  }
+
+  .qualities-3 div {
+    margin-bottom: 10%;
+  }
+  
+}
+
+@media (max-width:540px){
+  .features-1 .phone-1 {
+    top: 0%;
+    left: 5%;
+    width: 400px;
+    height: auto;
+  }
+
+  .full-nav img{
+    width: 75px;
+    margin-left: 10px;
+  }
+  
+  .full-nav .collapse{
+     margin-left: 0%;
+  }
+  
+  .full-nav .collapse a{
+    display: inline-block;
+    color: #000;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+
+  br {
+    display: none;
+  }
+  .features-1 .phone-2 {
+    margin-top: -120px;
+    left: 0px;
+    width: 300px;
+    height: auto;
+  }
+
+  .content .phone4 {
+    position: relative;
+    margin-top: 10%;
+    left: -60px;
+    
+  }
+}
+
+@media (max-width: 420px) {
+
+  svg{
+    display: none;
+  }
+  .full-nav {
+    width: 100%;
+    color: white;
+  }
+
+  .me-auto a{
+    color: white;
+  }
+
+  .full-nav .toggle{
+    background-color: white;
+    color: white;
+  }
+
+  .full-nav img{
+    width: 50px;
+    margin-left: 10px;
+  }
+  
+  .full-nav .collapse{
+     margin-left: 0%;
+  }
+  
+  .full-nav .collapse a{
+    display: inline-block;
+    color: #000;
+    padding: 5px 0;
+    font-size: 18px;
+  }
+
+
+  .intro-1 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 94%;
+  }
+  
+  .intro-1 span {
+    color: #159bd8;
+  }
+  
+  .intro-2 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 95%;
+  }
+
+  .app-stores {
+    width: 95%;
+    height: 215px;
+    overflow: hidden;
+    border-radius: 10px;
+    background:none;
+    box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.3) inset;
+    padding:0;
+  }
+
+   .app-stores .link2{
+    position: relative;
+    top: 0%;
+  }
+
+  .app-stores img{
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
+  .features {
+    flex-direction: column;
+    margin-bottom: 2%;
+    height: auto;
+  }
+
+  .feat {
+    margin-bottom: 5%;
+    font-size: 40px;
+  }
+
+  .features-1 h1{
+    font-size: 25px;
+    margin-top: 2px;
+  }
+
+  /* More styles */
+
+  .qualities {
+    flex-direction: column;
+    margin-left: 7%;
+  }
+
+  .features-1 {
+    width: 110%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .features-1 .phones {
+    margin-top: -70px;
+    top: 0%;
+  }
+  .features-1 .phone-1 {
+    margin-left: -60px;
     width: 350px;
     height: 400px;
   }
 
   .features-1 .phone-2 {
-    margin-top: -240px;
-    margin-left: -50px;
+    top: -100px;
+    margin-left: 70px;
     width: 250px;
     height: 400px;
   }
 
+  .features-2 {
+    flex-direction: column;
+    margin: 0.5%;
+    border-radius: 30px;
+    width: 99%;
+  }
+  
+  .features-2 .content {
+    display: flex;
+    height: 85%;
+    padding: 5% 3%;
+    border-radius: 20px;
+    background: #f0f0f0;
+    margin-bottom: 5%;
+  }
+  
+  .content h1 {
+    font-size: 20px;
+  }
+  
+  .content p {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .content .phone4 {
+    display: none;
+  }
+
+  .content .checkout-p{
+      width: 80%;
+  }
+
   .circles {
     display: none;
-    position: relative;
-    top: -50px;
-    width: 500px;
-    height: 500px;
   }
+
+  .qualities-3 {
+    flex-direction: column;
+    width: 100%;
+    left: -15%;
+  }
+
+  .qualities-3 h2 {
+    margin-bottom: 2%;
+  }
+  
 }
+
+
+
