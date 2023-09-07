@@ -7,6 +7,7 @@ import '../graphics.svg' ;
 
 function LandingPage() {
   return (
+    <div className='super-div'>
     <div className="landing-wrapper">
       <Navbar expand="lg" className="bg-body-primary full-nav">
       <Container>
@@ -54,7 +55,7 @@ function LandingPage() {
       <h1 className="feat">Our Features</h1>
 
       <div className=" features">
-        <div className="container-fluid features-1">
+        <div className="container-fluid me-4 features-1">
           <div>
             <h1>2 apps for the price of 1 
               <svg
@@ -87,7 +88,7 @@ function LandingPage() {
           />
           </div>
         </div>
-        <div className="features-2">
+        <div className="container-fluid  features-2">
           <div className="content">
             
             <div>
@@ -103,12 +104,12 @@ function LandingPage() {
   </h1>
   <p>Pay via mobile anywhere, anytime. Feel safe and secure with out state of the art security system, making sure your money is handled safely.</p>
             </div>
-  <img className='phone3' src="./img/iPhone 13 Pro (4).png" alt="phone3"/>
+  <img className='img-fluid phone3' src="./img/iPhone 13 Pro (4).png" alt="phone3"/>
           </div>
 
 
-          <div className="content" style={{height:'340px'}}>
-          <div className="content">
+          
+          <div className=" container-fluid content">
             
             <div>
             <h1> Easy Checkout <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
@@ -126,11 +127,11 @@ function LandingPage() {
   </h1>
   <p className="checkout-p">A simplified checkout process for a smoother all round experience. In just a few clicks a customer can cart or buy their chosen product.</p>
             </div>
-  <img className='phone4' src="./img/iPhone 13 Pro (5).png" alt="phone3"/>
+  <img className='img-fluid phone4' src="./img/iPhone 13 Pro (5).png" alt="phone3"/>
           </div>
           </div>
         </div>
-      </div>
+      
       <div className="container-fluid qualities">
         <div className="container-fluid">
           <svg
@@ -195,58 +196,44 @@ function LandingPage() {
         </div>
       </div>
       <div className="qualities-2">
-        <div className=" container-fluid circles">
+        <div className=" circles">
           <div className=" circle-1"></div>
           <div className="circle-2"></div>
           <div className="circle-3"></div>
         </div>
 
         <div className="container-fluid qualities-3">
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="61"
-              height="61"
-              viewBox="0 0 61 61"
-              fill="none"
-            >
-              <path
-                d="M30.7578 2.86914L8.25781 12.8691V27.8691C8.25781 41.7441 17.8578 54.7191 30.7578 57.8691C43.6578 54.7191 53.2578 41.7441 53.2578 27.8691V12.8691L30.7578 2.86914ZM30.7578 17.8691C34.2578 17.8691 37.7578 20.6191 37.7578 24.1191V27.8691C39.2578 27.8691 40.7578 29.3691 40.7578 31.1191V39.8691C40.7578 41.3691 39.2578 42.8691 37.5078 42.8691H23.7578C22.2578 42.8691 20.7578 41.3691 20.7578 39.6191V30.8691C20.7578 29.3691 22.2578 27.8691 23.7578 27.8691V24.1191C23.7578 20.6191 27.2578 17.8691 30.7578 17.8691ZM30.7578 20.8691C28.7578 20.8691 27.0078 22.1191 27.0078 24.1191V27.8691H34.5078V24.1191C34.5078 22.1191 32.7578 20.8691 30.7578 20.8691Z"
-                fill="#212121"
-              />
-            </svg>
+          <div >
+           
 
-            <h2>Easy Checkout</h2>
+            <h2> <i className="fa-solid fa-truck-fast"></i> Order Tracking </h2>
             <p>
-              A simplified checkout process for a smoother all round experience.
-              In just a fe clicks a customer can cart and buy their chosen
-              product.
+            Provide real time order & location tracking <br/>  so users can monitor and keep up <br/>  with the status of their <br/>  purchases.
             </p>
           </div>
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="61"
-              height="61"
-              viewBox="0 0 61 61"
-              fill="none"
-            >
-              <path
-                d="M30.7578 2.86914L8.25781 12.8691V27.8691C8.25781 41.7441 17.8578 54.7191 30.7578 57.8691C43.6578 54.7191 53.2578 41.7441 53.2578 27.8691V12.8691L30.7578 2.86914ZM30.7578 17.8691C34.2578 17.8691 37.7578 20.6191 37.7578 24.1191V27.8691C39.2578 27.8691 40.7578 29.3691 40.7578 31.1191V39.8691C40.7578 41.3691 39.2578 42.8691 37.5078 42.8691H23.7578C22.2578 42.8691 20.7578 41.3691 20.7578 39.6191V30.8691C20.7578 29.3691 22.2578 27.8691 23.7578 27.8691V24.1191C23.7578 20.6191 27.2578 17.8691 30.7578 17.8691ZM30.7578 20.8691C28.7578 20.8691 27.0078 22.1191 27.0078 24.1191V27.8691H34.5078V24.1191C34.5078 22.1191 32.7578 20.8691 30.7578 20.8691Z"
-                fill="#212121"
-              />
-            </svg>
+          <div >
+            
 
-            <h2>Easy Checkout</h2>
+            <h2> <i className="mdi mdi-face-agent"></i> Customer Support</h2>
             <p>
-              A simplified checkout process for a smoother all round experience.
-              In just a fe clicks a customer can cart and buy their chosen
-              product.
+            A unique customer support system that <br/>  offers users direct access to the admins<br/>  for questions, inquires, feedback <br/>  and custom orders.
             </p>
           </div>
         </div>
       </div>
+      
     </div>
+
+<footer >
+<p> <i className="bi-facebook"></i>@JackUmeme</p>
+  <p> <i className="bi-instagram"></i>@JackUmeme</p>
+  <p> <i className="bi-telephone-fill" style={{color:'white'}}></i>0789 123456</p>
+  <p className="special"> <i className="mgc_appstore_fill" style={{color:'white'}}></i>
+ JackUmeme</p>
+  <p className="special"> <i className="bi-google-play"></i> JackUmeme</p>
+   </footer>
+
+   </div>
   );
 }
 
