@@ -434,8 +434,8 @@ footer i{
     font-size:19px;
   }
 
-  .navbar-collapse{
-    margin: 0 !important;
+  .qualities-3 div{
+    width: 77%;
   }
 }
 @media (max-width: 920px) {
