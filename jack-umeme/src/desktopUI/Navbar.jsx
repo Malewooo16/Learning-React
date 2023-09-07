@@ -55,7 +55,7 @@ function LandingPage() {
       <h1 className="feat">Our Features</h1>
 
       <div className=" features">
-        <div className="container-fluid me-4 features-1">
+        <div className=" features-1">
           <div>
             <h1>2 apps for the price of 1 
               <svg
