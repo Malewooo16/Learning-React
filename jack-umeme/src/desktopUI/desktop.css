@@ -74,11 +74,11 @@ input:focus {
 
 .full-nav img{
   width: 100px;
-  margin-left: -70px;
+  margin-left: -5px;
 }
 
 .full-nav .collapse{
-   margin-left: 45%;
+   margin-left: 35%;
 }
 
 .full-nav .container{
@@ -90,8 +90,8 @@ input:focus {
   justify-content: space-around;
   width: auto;
   padding-right: 10%;
-  padding-left: 20%;
-  font-size: 20px;
+  padding-left: 10%;
+  font-size:19px;
 }
 
 
@@ -374,14 +374,14 @@ footer i{
 }
 
 
-@media (max-width:1115px){
+@media (max-width:1125px){
   .full-nav img{
     width: 100px;
     margin-left: -10px;
   }
   
   .full-nav .collapse{
-     /* margin-left: 25%; */
+     margin-left: 30%;
   }
   
   br{
@@ -402,7 +402,7 @@ footer i{
   }
 
   .app-stores .iphone {
-    margin-top:12px;
+    margin-top:8px;
     margin-left: 10px;
     padding: 3% 0;
   }
@@ -424,6 +424,18 @@ footer i{
     width:100% ;
     align-items:center;
     justify-content:space-between;
+  }
+
+  .full-nav .collapse a{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding: 5px 0;
+    font-size:19px;
+  }
+
+  .navbar-collapse{
+    margin: 0 !important;
   }
 }
 @media (max-width: 920px) {

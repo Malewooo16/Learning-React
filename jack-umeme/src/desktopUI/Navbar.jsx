@@ -10,7 +10,7 @@ function LandingPage() {
     <div className='super-div'>
     <div className="landing-wrapper">
       <Navbar expand="lg" className="bg-body-primary full-nav">
-      <Container>
+      
         <img className="img-fluid" src="./com.jackumeme1.png" alt='logo'/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -21,7 +21,7 @@ function LandingPage() {
             <Nav.Link href="#link">Privacy Policy</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      
     </Navbar>
 
       <div className="intro">
