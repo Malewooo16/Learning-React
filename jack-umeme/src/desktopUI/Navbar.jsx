@@ -196,10 +196,41 @@ function LandingPage() {
         </div>
       </div>
       <div className="qualities-2">
-        <div className=" circles">
-          <div className=" circle-1"></div>
-          <div className="circle-2"></div>
-          <div className="circle-3"></div>
+      <div className="container-fluid qualities-3">
+          <div >
+           
+
+            <h2> <i className="fa-solid fa-truck-fast"></i> Order Tracking </h2>
+            <p>
+            Provide real time order & location tracking <br/>  so users can monitor and keep up <br/>  with the status of their <br/>  purchases.
+            </p>
+          </div>
+          <div >
+            
+
+            <h2> <i className="mdi mdi-face-agent"></i> Customer Support</h2>
+            <p>
+            A unique customer support system that <br/>  offers users direct access to the admins<br/>  for questions, inquires, feedback <br/>  and custom orders.
+            </p>
+          </div>
+        </div>
+      <div className="container-fluid qualities-3">
+          <div >
+           
+
+            <h2> <i className="fa-solid fa-truck-fast"></i> Order Tracking </h2>
+            <p>
+            Provide real time order & location tracking <br/>  so users can monitor and keep up <br/>  with the status of their <br/>  purchases.
+            </p>
+          </div>
+          <div >
+            
+
+            <h2> <i className="mdi mdi-face-agent"></i> Customer Support</h2>
+            <p>
+            A unique customer support system that <br/>  offers users direct access to the admins<br/>  for questions, inquires, feedback <br/>  and custom orders.
+            </p>
+          </div>
         </div>
 
         <div className="container-fluid qualities-3">

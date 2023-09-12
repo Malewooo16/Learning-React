@@ -325,15 +325,14 @@ input:focus {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 5% 0 0 5%;
+  margin: 5% 0 0 1%;
 }
 
 .qualities-3 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  position: relative;
-  left: 10%;
+ 
 }
 
 .qualities-3 div {
@@ -435,7 +434,7 @@ footer i{
   }
 
   .qualities-3 div{
-    width: 77%;
+    width: 85%;
   }
 }
 @media (max-width: 920px) {
@@ -571,8 +570,10 @@ footer i{
       width: 80%;
   }
    
-  .qualities-2{
-    height: 400px;
+.qualities-2{
+    height: auto;
+    flex-direction: column;
+    margin:5% 0 0 0;
   }
   .qualities-3 {
     
@@ -588,7 +589,7 @@ footer i{
 
   .qualities-3 div {
     margin-bottom: 10%;
-    margin-left: 50px;
+    margin-left: 17px;
   }
 
   .circle-1 {
@@ -786,7 +787,8 @@ footer i{
     display: none;
   }
   .qualities-2{
-    height:200px;
+    height: auto;
+    flex-direction: column;
   }
 
   .qualities-3 {
@@ -803,12 +805,12 @@ footer i{
     width:47%;
     margin-bottom: 10%;
     margin-left:0 ;
-    height: 100px;
+    /* height: 100px; */
   }
 
   footer{
     padding: 3% 2% 3% 2%;
-    margin-top:-50px;
+    margin-top: 20px;
     margin-bottom:10px;
     /* margin-left:-19px; */
     width:100% ;
@@ -823,6 +825,7 @@ footer i{
   }
   
   footer i{
+    
     margin-right:3px;
   }
 
@@ -857,6 +860,7 @@ footer i{
   }
 
   footer{
+    margin-top: 20px;
     width:100%;
     padding: 3% 2% 3% 2%;
   }
@@ -1109,17 +1113,17 @@ footer i{
 }
 
 .landing-wrapper{
-  margin-top: -10%;
-  padding: 0 20px;
-  height: 3025px;
+  margin-top: 5%;
+  padding: 0 0px;
+ 
 }
   
 }
 
 @media(max-width:375px){
   .landing-wrapper{
-    height:3128px;
-    margin-top:-35px;
+    
+    margin-top:5%;
   }
 
   .qualities-3 {
